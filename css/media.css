@@ -1,0 +1,384 @@
+@media only screen and (min-width : 320px) and (max-width : 1024px) {
+
+	/*HEADER*/
+	header {
+		min-height: 120%;
+		height: 120%;
+	}
+	header nav .nav-logo {
+		flex-basis: 100%; 
+		order:-1;
+		margin-bottom: 6px;
+	}
+	header nav a {
+		margin-bottom: 6px;
+	}
+	header form {
+		flex-basis: 100%;
+		order: 2;
+		margin: 2%;
+	}
+	header .wrapp-title {
+		order: 1;
+		margin: 25% 2% 10% 2%;
+		flex-basis: 100%;
+	}
+	header .wrapp-title h1,
+	header .wrapp-title h2 {
+		font-size: 18px;
+		line-height: 24px;
+		text-align: center;
+	}
+	header .wrapp-title h2 {
+		font-size: 24px;
+	}
+
+	/*MAIN*/
+	section {
+		padding: 15% 2%;
+	}
+	section h1 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.yoga-program {
+		padding-top: 25%;
+	}
+	.yoga-classes li:nth-child(odd) {
+		margin: 0;
+	}
+	.yoga-classes li {
+		flex-basis: 100%;
+		margin: 5% 0;
+		flex-direction: column;
+	}
+	.img-wrapper img {
+		width: 100%;
+	}
+	.class-info {
+		align-self: flex-start;
+		padding: 2%;
+	}
+	.class-info p {
+		margin-top: 10px;
+	}
+	/*gallery*/
+	.gallery .gallery-list li:nth-child(odd) {
+		display: none;
+	}
+	.gallery .gallery-list li {
+		flex-basis: 100%;
+	}
+	/*aboit us*/
+	.about-us .info-about {
+		flex-basis: 100%;
+	}
+	.bx-wrapper {
+		flex-basis: 100%;
+	}
+	.bx-wrapper .bx-next {
+		right: 0;
+	}
+	.bx-wrapper .bx-prev {
+		left: 0;
+	}
+	/*result*/
+	.feature-result {
+		padding: 2%;
+	}
+	.feature-result ul li {
+		flex-basis: calc(50% - 30px);
+		margin: 10px 15px;
+	}
+	.feature-result ul li h2 {
+		width: 100%;
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.feature-result ul li p {
+		line-height: 18px;
+		margin-top: 10px;
+	}
+	/*prices*/
+	.price-section ul li {
+		flex-basis: 100%;
+		margin: 15px 0;
+	}
+	/*blockquotes*/
+	.photos-quotes {
+		display: none;
+	}
+	.quotes:before {
+		left: -12%;
+	}
+	.quotes:after {
+		top: 116px;
+		right: -11%;
+	}
+	.quotes li {
+		width: 100%;
+		margin-left: 0;
+	}
+	.trainers li {
+		left: 8%;
+	}
+	.trainers li .img-wrapper img {
+		left: 0;
+	}
+	.bloquotes-wrapper #slid-prev {
+		left: 0;
+	}
+	.bloquotes .bullets li {
+		margin-top: 90%;
+	}
+	.bloquotes-wrapper #slid-next {
+		left: 85%;
+	}
+	/*FOOTER*/
+	footer .footer-about, 
+	footer .footer-contacts {
+		flex-basis: 100%;
+		margin-left: 5%;
+	}
+	footer .footer-title {
+		margin-bottom: 4%;
+	}
+	footer .footer-about .social-network {
+		margin: 5% 0;
+	}
+	footer .footer-contacts .contact-list li {
+		flex-basis: calc(100% - 36px);
+	}
+}
+
+@media only screen and (min-width : 480px) and (max-width : 640px) {
+
+		/*HEADER*/
+
+	header .wrapp-title {
+		order: 1;
+		margin: 15% 2% 2% 2%;
+		flex-basis: 100%;
+	}
+	header .wrapp-title h1,
+	header .wrapp-title h2 {
+		font-size: 26px;
+		line-height: 30px;
+		text-align: center;
+	}
+	header .wrapp-title h2 {
+		font-size: 28px;
+	}
+		/*MAIN*/
+	/*our classes*/
+	.yoga-classes li {
+		flex-direction: row;
+	}
+	/*gallery*/
+	.gallery .gallery-list li {
+		flex-basis: 50%;
+	}
+	/*about us*/
+	.about-us .info-about p {
+		margin-bottom: 20px;
+	}
+	/*price*/
+	.price-section ul li {
+		flex-basis: calc(50% - 30px);
+		margin:15px;
+	}
+	/*FOOTER*/
+	footer .footer-contacts .contact-list li {
+		flex-basis: calc(50% - 36px);
+	}
+	
+}
+@media only screen and (min-width : 640px) and (max-width : 768px) {
+
+			/*HEADER*/
+	header {
+		min-height: 130%;
+		height: 130%;
+	}
+	header .wrapp-title {
+		order: 1;
+		margin: 15% 2% 2% 2%;
+		flex-basis: 100%;
+	}
+	header .wrapp-title h1,
+	header .wrapp-title h2 {
+		font-size: 44px;
+		line-height: 46px;
+		text-align: center;
+	}
+	header .wrapp-title h2 {
+		font-size: 30px;
+	}
+	header form {
+		flex-basis: 100%;
+		align-self: center;
+		order: 2;
+		margin: 2%;
+	}
+	header form input {
+		width: 96%;
+	}
+	/*MAIN/
+	/*classes*/
+	.yoga-program {
+		padding-top: 10%;
+	}
+	.yoga-classes li {
+		flex-direction: row;
+		flex-basis: calc(50% - 2%);
+		margin: 2%;
+	}
+	.yoga-classes li:nth-child(odd) {
+		margin: 2% 0;
+		flex-direction: row;
+	}
+	/*gallery*/
+	.gallery .gallery-list li:before {
+		transform: translateY(550%);
+	}
+	/*about us*/
+	.about-us .info-about p {
+		margin-bottom: 30px;
+	}
+	/*prices*/
+	.price-section ul li {
+		flex-basis: calc(50% - 30px);
+		margin:15px;
+	}
+	/*blockquotes*/
+	.photos-quotes {
+		display: block;
+	}
+	.photos-quotes:after {
+		display: none;
+	}
+	.quotes:before {
+		left: 24%;
+	}
+	.quotes li {
+		width: 80%;
+		margin-left: 30%;
+	}
+	.trainers li {
+		left: 30%;
+	}
+	.bloquotes-wrapper #slid-prev {
+		left: 20%;
+	}
+	.bloquotes-wrapper #slid-next {
+		left: 65%;
+	}
+	.bloquotes .bullets li {
+		margin-top: 50%;
+	}
+	/*FOOTER*/
+	footer .footer-contacts .contact-list li {
+		flex-basis: calc(50% - 36px);
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+				/*HEADER*/
+	header {
+		min-height: 100%;
+		height: 100%;
+	}
+	header .wrapp-title {
+		order: 2;
+		margin: 14% 0% 0% 4%;
+		flex-basis: 42%;
+	}
+	header .wrapp-title h1,
+	header .wrapp-title h2 {
+		font-size: 36px;
+		line-height: 38px;
+		text-align: left;
+	}
+	header .wrapp-title h2 {
+		font-size: 30px;
+	}
+	header form {
+		flex-basis: 30%;
+		margin: 20% 0% 0% 10%;
+	}
+	header form input {
+		width: 96%;
+	}
+	/*MAIN/
+	/*classes*/
+	.yoga-program {
+		padding-top: 10%;
+	}
+	.yoga-classes li {
+		flex-direction: row;
+		flex-basis: calc(50% - 2%);
+		margin: 2%;
+	}
+	.yoga-classes li:nth-child(odd) {
+		margin: 2% 0;
+		flex-direction: row;
+	}
+	/*gallery*/
+	.gallery .gallery-list li {
+		flex-basis: 50%;
+	}
+	.gallery .gallery-list li:before {
+		transform: translateY(550%);
+	}
+	/*about us*/
+	.about-us .info-about p {
+		margin-bottom: 30px;
+	}
+	/*result*/
+	.feature-result ul {
+		justify-content: center;
+	}
+	.feature-result ul li {
+		flex-basis: calc(30% - 30px);
+	}
+	/*prices*/
+	.price-section ul li {
+		flex-basis: calc(50% - 30px);
+		margin:15px;
+	}
+	/*blockquote*/
+	.photos-quotes {
+		display: block;
+	}
+	.photos-quotes:after {
+		display: none;
+	}
+	.quotes:before {
+		left: 26%;
+	}
+	.quotes li {
+		width: 70%;
+		margin-left: 34%;
+	}
+	.trainers li {
+		left: 30%;
+	}
+	.bloquotes-wrapper #slid-prev {
+		left: 20%;
+	}
+	.bloquotes-wrapper #slid-next {
+		left: 65%;
+	}
+	.bloquotes .bullets li {
+		margin-top: 50%;
+	}
+	
+	/*FOOTER*/
+	footer .footer-about, 
+	footer .footer-contacts {
+		flex-basis: calc(50% - 5%);
+	} 
+	footer .footer-contacts .contact-list li {
+		flex-basis: calc(40% - 36px);
+	}
+}
